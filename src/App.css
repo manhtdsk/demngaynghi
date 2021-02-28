@@ -4,7 +4,7 @@
     padding: 0;
     border: none;
 }
-
+@media only screen and (min-width: 1024px) {
 .App {
     background-size: cover;
     /* background-color: red; */
@@ -42,3 +42,12 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+}
+@media only screen and (min-width: 375px) and (max-width: 1023px) {
+    .App {
+      /* background-color: red; */
+      text-align: center;
+      width: 375px;
+      height: 100vh;
+    }
+  }
