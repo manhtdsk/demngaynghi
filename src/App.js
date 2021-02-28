@@ -4,6 +4,8 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import { DatePicker } from 'antd';
 
+import MessengerCustomerChat from 'react-messenger-customer-chat';
+
 function App() {
   const [ngay, setNgay] = useState(new Date().getDate())
   const [thang, setThang] = useState(new Date().getMonth() + 1)
@@ -110,6 +112,12 @@ function App() {
       <div className='endday'>
         Còn {difference} ngày
       </div>
+
+      <MessengerCustomerChat
+        pageId="108457081295779"
+        appId="742330696473947"
+        // htmlRef="<REF_STRING>"
+      />
     </div>
   );
 }
