@@ -116,7 +116,7 @@ function App() {
       <MessengerCustomerChat
         pageId="108457081295779"
         appId="742330696473947"
-        // htmlRef="<REF_STRING>"
+        
       />
     </div>
   );
