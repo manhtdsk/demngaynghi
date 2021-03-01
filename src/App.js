@@ -69,8 +69,8 @@ function App() {
     <div className="App" style={{ backgroundImage: "url(./img/nen.jpg)" }}>
       <div className='head'>
 
-        <p> {"Hôm nay là Ngày " + ngay + " tháng " + thang + " Năm " + nam}</p>
-        <p> {time}</p>
+        <p id='ngaynghi'> {"Hôm nay là Ngày " + ngay + " tháng " + thang + " Năm " + nam}</p>
+        <p id='giohien'> {time}</p>
           Nghỉ ngày 11-03-2021
             <button className='nutnhan' onClick={() => {
           setShow(!show)

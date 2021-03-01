@@ -4,50 +4,115 @@
     padding: 0;
     border: none;
 }
+
 @media only screen and (min-width: 1024px) {
-.App {
-    background-size: cover;
-    /* background-color: red; */
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-
-
+    .App {
+        background-size: cover;
+        /* background-color: red; */
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+    }
+    .head {
+        display: inline-block;
+        border-radius: 50px;
+        width: 40%;
+        font-size: 3vh;
+        font-weight: bold;
+        background: rgba(88, 88, 88, 0.6);
+        padding: 20px;
+        margin-top: 3%;
+    }
+    .endday {
+        color: rgb(152, 255, 255);
+        font-size: 160px;
+        font-weight: bold;
+        height: auto;
+    }
+    .nutnhan {
+        height: 30px;
+        background-color: rgb(175, 252, 168);
+        border-radius: 50px;
+        font-size: 15px;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
-.head {
-    display: inline-block;
-    border-radius: 50px;
-    width: 40%;
-    font-size: 3vh;
-    font-weight: bold;
-    background: rgba(88, 88, 88, 0.6);
-    padding: 20px;
-    margin-top: 3%;
-}
-
-.endday {
-    color: rgb(152, 255, 255);
-    font-size: 160px;
-    font-weight: bold;
-    height: auto;
-}
-
-.nutnhan {
-    height: 30px;
-    background-color: rgb(175, 252, 168);
-    border-radius: 50px;
-    font-size: 15px;
-    width: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-}
 @media only screen and (min-width: 375px) and (max-width: 1023px) {
     .App {
-      /* background-color: red; */
-      text-align: center;
-      width: 375px;
-      height: 100vh;
+        /* background-color: red; */
+        /* background-image: none !important; */
+        text-align: center;
+        width: auto;
+        /* width: 100%; */
+        height: 100vh;
+        background-size: cover;
+        
+
     }
-  }
+    .head {
+        display: block;
+        height: 40%;
+        display: inline-block;
+        padding-top: 15%;
+        
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10%;
+        
+    }
+    #ngaynghi{
+        color: rgb(81, 32, 196);
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #giohien{
+        color: rgb(40, 253, 243);
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .endday {
+        margin-top: 60px;
+        height: auto;
+        font-size: 50px;
+        color: rgb(117, 218, 218);
+        font-weight: bold;
+    }
+    .nutnhan {
+        margin: 5%;
+        align-items: center;
+        display: block;
+        margin-left: 35%;
+        border-radius: 50px;
+        padding: 3%;
+        margin: 10px auto;
+    }
+    .nutnhan {
+        background: linear-gradient(239deg, #df3418, #d2c83a, #13f22f, #1322f2, #f21313);
+        background-size: 1000% 1000%;
+    
+        -webkit-animation: AnimationName 6s ease infinite;
+        -moz-animation: AnimationName 6s ease infinite;
+        animation: AnimationName 6s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:94% 0%}
+        50%{background-position:7% 100%}
+        100%{background-position:94% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:94% 0%}
+        50%{background-position:7% 100%}
+        100%{background-position:94% 0%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:94% 0%}
+        50%{background-position:7% 100%}
+        100%{background-position:94% 0%}
+    }
+    
+}
