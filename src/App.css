@@ -38,6 +38,30 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .nutnhan {
+        background: linear-gradient(239deg, #df3418, #d2c83a, #13f22f, #1322f2, #f21313);
+        background-size: 1000% 1000%;
+    
+        -webkit-animation: AnimationName 6s ease infinite;
+        -moz-animation: AnimationName 6s ease infinite;
+        animation: AnimationName 6s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:94% 0%}
+        50%{background-position:7% 100%}
+        100%{background-position:94% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:94% 0%}
+        50%{background-position:7% 100%}
+        100%{background-position:94% 0%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:94% 0%}
+        50%{background-position:7% 100%}
+        100%{background-position:94% 0%}
+    }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 1023px) {
